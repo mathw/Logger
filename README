@@ -1,0 +1,19 @@
+=begin pod
+
+=head1 Logger
+
+A simple logging system for Perl 6.
+
+=head1 Synopsis
+
+ use v6;
+ use Log::Simple;
+
+ set-loglevel(Log::INFO);
+
+ log(Log::WARNING, "Warning! Something has happened.");
+
+=head1 NOTES
+
+None of this is actually implemented yet.
+
