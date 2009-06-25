@@ -9,11 +9,13 @@ A simple logging system for Perl 6.
  use v6;
  use Log::Simple;
 
- set-loglevel(Log::INFO);
+ Log.set-log-level($Log::Simple::INFO);
 
- log(Log::WARNING, "Warning! Something has happened.");
+ Log.error("An error occurred");
 
 =head1 NOTES
 
 None of this is actually implemented yet.
+
+=end pod
 
